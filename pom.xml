@@ -11,7 +11,7 @@
 	<groupId>com.ada.id.company.web.front</groupId>
 	<artifactId>ada-front-company</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>ada-front-company</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -50,6 +50,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
 <!--		<dependency>-->
